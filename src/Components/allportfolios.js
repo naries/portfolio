@@ -11,7 +11,8 @@ const portfolios = [
         icon1: 'G',
         icon2: 'N',
         image: port7,
-        title: 'Rock Paper Scissors'
+        title: 'Rock Paper Scissors',
+        paragraph: 'A game on the web where you can choose any of rock, paper or scissors. The computer chooses too. The rules of the game are embedded as well'
     },
     {
         id: 2,
@@ -21,17 +22,19 @@ const portfolios = [
         icon1: 'G',
         icon2: 'N',
         image: port6,
-        title: 'Greedy Hunter'
+        title: 'Greedy Hunter',
+        paragraph: 'Think you can be the next Greedy Hunter? Consume all the food in the boxes and show them who\'s boss!'
     },
         {
         id: 3,
         category: 'Personal',
-        link1: 'https://github.com/naries/GreedyHunterchallenge',
-        link2: 'https://greedy-hunter-app.netlify.app',
+        link1: 'https://github.com/naries/portfolio',
+        link2: 'https://mayokun-portfolio.netlify.app',
         icon1: 'G',
         icon2: 'N',
         image: port5,
-        title: 'Portfolio'
+        title: 'My Portfolio',
+        paragraph: 'Want to know more about me? Every info about me including the projects I have worked on are contained in here'
     },
 ]
 

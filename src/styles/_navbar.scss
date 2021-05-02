@@ -6,7 +6,7 @@
         flex-direction: column;
         justify-content: space-between;
         align-items: center;
-
+        background-color: #fff;
         .profile{
             width: 100%;
             text-align: center;
@@ -39,10 +39,10 @@
                         width: .4rem;
                         height: 100%;
                         background-color: #0381ff33;
-                        transform-origin: bottom;
+                        transform-origin: top;
                         transform: scale(0);
                         overflow-x: hidden;
-                        transition: transform .6s, .2s width .5s cubic-bezier(1,-0.16,.6,1.35);
+                        transition: transform .6s, .1s width .3s cubic-bezier(1,-0.16,.6,1.35);
                     }
 
                     &:hover::before{
@@ -65,4 +65,5 @@
 
 .active{
     background-color: #037FFF;
+    color: white!important;
 }

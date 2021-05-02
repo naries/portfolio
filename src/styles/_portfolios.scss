@@ -74,11 +74,19 @@
         h5{
             font-size: 1.7rem;
             font-weight: 400;
-            color: white;
+            color:#037FFF;
             transition: all .3s ease-in-out;
+            @media screen and (max-width: 411px){
+                padding: 1rem;
+            }
             &:hover{
-                color:  #037FFF;
+                color: gray;
                 cursor: pointer;
+            }
+        }
+        p{
+            @media screen and (max-width: 411px){
+                padding: 1rem;
             }
         }
     }

@@ -5,6 +5,9 @@
     position: relative;
     padding-bottom: 1rem;
     letter-spacing: 3px;
+    @media screen and (max-width: 411px){
+        padding-left: 1rem;
+    }
     &::before{
         content: "";
         bottom: 0;
@@ -29,8 +32,12 @@
     span{
         position: absolute;
         top: -.2em;
-        left: 20rem;
+        left: 20%;
         font-size: 5rem;
         opacity: 0.125;
+        word-wrap: break-word;
+        @media screen and (max-width: 411px){
+            display: none;
+        }
     }
 }

@@ -16,9 +16,15 @@
         margin-left: 2rem;
         h4{
             font-size: 2rem;
+            @media screen and (max-width: 411px){
+                padding: 0 1rem;
+            }
         }
         .about-text{
             padding: 1rem 0;
+            @media screen and (max-width: 411px){
+                padding: 1rem;
+            }
         }
     }
     @media screen and (max-width: 1400px){
@@ -35,6 +41,9 @@
     display: flex;
     p{
         padding: .3rem 0;
+        @media screen and (max-width: 411px){
+        padding: .3rem 1rem;
+        }
     }
     .right-section{
         margin-left: 2.3rem;
@@ -48,12 +57,17 @@
     border: none;
     font-family: inherit;
     font-size: inherit;
-    color: white;
     text-transform: uppercase;
     cursor: pointer;
     letter-spacing: 2px;
     margin-top: 1rem;
+    display: inline-block;
     position: relative;
+    color: white;
+    text-decoration: none;
+    @media screen and (max-width: 411px){
+        margin-left: 1rem;
+    }
     &::after{
         position: absolute;
         content: "";
@@ -77,6 +91,9 @@
     margin: 4rem 0;
     @media screen and (max-width: 1100px){
         grid-template-columns: repeat(1, 1fr);
+    }
+    @media screen and (max-width: 411px){
+        margin: 4rem 1rem;
     }
 }
 
@@ -103,7 +120,6 @@
     &:focus{
         background-color: #037FFF;
     }
-    
 
 }
 

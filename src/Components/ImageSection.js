@@ -30,7 +30,10 @@ function ImageSection() {
                         <p>: 1 Lekan Solanke close, Ade-Oni estate, Ojodu-Berger, Lagos</p>
                     </div>
                 </div>
-                <button className="btn">Download Cv</button>
+                <a className="btn" href="https://drive.google.com/file/d/1e2QEQNDz7ZYX7NWQE6gQSW2CeIB_uLt1/view?usp=sharing" target="_blank">
+                    Download CV
+                </a>
+
             </div>
         </div>
     )
